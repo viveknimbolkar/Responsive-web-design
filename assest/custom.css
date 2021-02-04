@@ -1,0 +1,130 @@
+/*Designed and developed by vivek nimbolkar*/
+body{
+    background-color: #070707;
+}
+#menbar a{
+    font-size: 20px;
+}
+#menbar a:hover{
+    background-color: rgb(37, 37, 37);
+}
+#register-btn:hover{
+    background-color: rgb(255, 230, 0)!important;
+}
+#submenu{
+    background-color: rgba(17, 17, 17, 0.815);
+    padding: 10px 10px;
+    position: absolute;
+    display: none;
+    z-index: 1;
+}
+#submenu ul li{
+    list-style-type: none;
+}
+#submenu ul{
+    padding-left: 0px;
+}
+#menbar ul li:hover #submenu{
+    display: block;
+}
+#first-section{
+    background-image: url('/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#first-container p:nth-of-type(1){
+    font-size: 60px;
+    line-height: 1.3em;
+    font-weight: 200;
+    position: relative;
+}
+#first-container p:nth-of-type(2){
+    color: rgb(199, 199, 199);
+    font-size: 1.5em;
+    position: relative;
+}
+#second-section{
+    margin: 3%;
+}
+#cards{
+    background-color: #272727;
+    border-radius: 20px;
+    transition: .5s;
+}
+#cards:hover{
+    box-shadow: 0 0 20px #4a4a4a;
+    transition: .5s;
+}
+#cards h4{
+    font-weight: 400;
+    font-size: 2em;
+}
+#cards p{
+    color: #c7c7c7;
+}
+#some-text{
+    font-weight: 300;
+    font-size: 2.3em;
+}
+#demo{
+    filter: blur(1px);
+}
+#demo:hover{
+    filter: blur(0);
+}
+#fifth-sectn{
+    background-color: rgb(36, 36, 36);
+    border-radius: 20px;
+}
+#list ul li{
+    font-size: 1.2em;
+}
+#quote{
+    margin-left: 70%;
+}
+#section-nine-list{
+    font-size: 1.5em;
+    line-height: 2em;
+}
+#section-11{
+    background-color: #272727;
+    border-radius: 20px;
+    
+}
+#section-12 h1{
+    font-weight: 300;
+}
+#section-12 ul li{
+    font-size: 1.3em;
+}
+#section-13 {
+    background-color: #272727;
+    border-radius: 10px;
+}
+#foter-section{
+    font-weight: 300;
+}
+#foter-section ul li{
+    list-style-type: none;
+    width: 100%;
+}
+#foter-section a{
+    color: rgb(196, 196, 196);
+    font-size: 1.2em;
+}
+#foter-section a:hover{
+    color: rgb(251, 255, 0);
+}
+#notification-area{
+    position: fixed;
+    z-index: 1;
+    top: 86%;
+    right: 3%;
+    border-radius: 50%;
+    border: 4px solid rgb(255, 255, 255);
+    background-color: white;
+    padding: 1%;
+}
